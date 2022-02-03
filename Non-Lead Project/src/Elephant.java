@@ -23,5 +23,8 @@ public class Elephant {
 	public static void main(String args[])
 	{
 		System.out.println("hello there");
+		Elephant elephant1 = new Elephant();
+		elephant1.setName("clyde");
+		System.out.println(elephant1.getName());
 	}
 }
